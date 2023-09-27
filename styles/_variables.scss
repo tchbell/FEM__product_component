@@ -1,0 +1,25 @@
+// Colors
+$dark-cyan: hsl(158, 36%, 37%);
+$cream: hsl(30, 38%, 92%);
+$dark-blue: hsl(212, 21%, 14%);
+$dark-gray-blue: hsl(228, 12%, 48%);
+$white: hsl(0, 0%, 100%);
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.hide-mobile {
+  display: none;
+  @media screen and (min-width: 991px) {
+    display: block;
+  }
+}
+
+.hide-desktop {
+  display: block;
+  @media screen and (min-width: 991px) {
+    display: none;
+  }
+}
